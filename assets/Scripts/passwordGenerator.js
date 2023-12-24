@@ -1,8 +1,8 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-var userSelection = "";
-
+var userChoice = "";
+alert("Welcome to my password generator!")
 function generatePassword() {
 
 var lowercaseABC = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -19,24 +19,25 @@ if (passwordLength < 8 || passwordLength > 128) {
     var passwordLength = prompt("Your password should have a character length of atleast 8 and no more than 128!");
 
 }
+console.log(passwordLength);
 //Criteria prompts for password to generate
 var lowercaseConfirm = confirm("Your password should have a lowercase letter! Click OK to Continue");
 if (lowercaseConfirm) {
-    userSelection = userSelection.concat(lowercaseABC);
+    userChoice = userChoice.concat(lowercaseABC);
 }
 var uppercaseConfirm = confirm("Your password should have an uppercase letter! Click OK to Continue");
 if (uppercaseConfirm) {
-    userSelection = userSelection.concat(uppercaseABC);
+    userChoice = userChoice.concat(uppercaseABC);
 }
 var symbolsConfirm = confirm("Your password should have a symbol! Click OK to Continue");
 if (symbolsConfirm) {
-    userSelection = userSelection.concat(specialSymbols);
+    userChoice = userChoice.concat(specialSymbols);
 }
 var numbersConfirm = confirm("Your password should have a number! Click OK to Continue");
 if (numbersConfirm) {
-    userSelection = userSelection.concat(numeric);
+    userChoice = userChoice.concat(numeric);
 }
-console.log("userSelection: " + userSelection);
+console.log("userChoiceConditional: " + userChoice);
 
 
 //let str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~!@#$%^&*()_+`-=?";
@@ -52,10 +53,10 @@ if (!lowercaseABC && !uppercaseABC && !specialSymbols && !numeric) {
 
     let passwordEnd = "";
     for (let i = 0; i < passwordLength; i++) {
-        let char = Math.floor(Math.random() * userSelection.length);
-        passwordEnd += userSelection.charAt(char);
+        let char = Math.floor(Math.random() * userChoice.length);
+        passwordEnd += userChoice.charAt(char);
 
-      //  var random = userSelection[char];
+      //  var random = userChoice[char];
       //  passwordEnd = passwordEnd.concat(random);
 
     }

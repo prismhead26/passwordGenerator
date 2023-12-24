@@ -6,8 +6,8 @@ var userChoice = "";
 alert("Welcome to my password generator!")
 function generatePassword() {
 
-var lowercaseABC = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var uppercaseABC = "abcdefghijklmnopqrstuvwxyz";
+var lowercaseABC = "abcdefghijklmnopqrstuvwxyz";
+var uppercaseABC = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numeric = "0123456789";
 var specialSymbols = "!\"#$%&()*+,-./:;<=>?@[\]^_`{|}~";
 

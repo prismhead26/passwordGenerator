@@ -1,10 +1,10 @@
-# passwordGenerator README unfinished
+# Password Generator
 
 ## Description
 
-The main goal of this project is to create a codebase that follows accessibility standards, so that the site is optimized for search engines. And it makes certain that people with disabilities can access the website.
+The main goal of this project is to create create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code. It will also have a clean and polished, responsive user interface that adapts to multiple screen sizes.
 <br>
-After completion of the project, I have a better understanding of the git "flow" process as well as using pseudocode to break down and manage the project into managable segments. I also learned some better ways to write the CSS, thus making the code easier to read and more modular!
+After completion of the project, I have a better understanding on declaring/calling variables, functions, if-statemtns, ternary operators and for loops. I also learned some better ways to write the JavaScript, thus making the code easier to read and more modular!
 
 ## Table of Contents
 
@@ -84,6 +84,6 @@ In order to test, run the program using the "Open with Live Server" Exstension.
 <br>
 I would also have DevTools open to see the logs.
 <br>
-Note: If the criteria and/or password not generating properly, simply refresh the page.
+Note: If the criteria and/or password is not generating properly, simply refresh the page.
 <br>
 There are also a few test logs in the console to help ensure the app is fully operable.

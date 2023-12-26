@@ -25,8 +25,7 @@ For the IDE, use Vs Code as well as the "Open with Live Server" Extension.
 
 Steps Include:
 
-- Install tools
-- Highly recommend an up to date web browser for JavaScript
+- Install tools (Highly recommend an up to date web browser for JavaScript)
 - Clone repository
 - Pull to local sytem
 - Create environment using extension

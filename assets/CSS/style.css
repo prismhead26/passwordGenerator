@@ -2,6 +2,9 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant-numeric: slashed-zero;
+
 }
 
 html,
@@ -13,7 +16,6 @@ body,
 }
 
 body {
-  font-family: sans-serif;
   background-color: #7f9ab5;
 }
 
@@ -30,8 +32,18 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+h1 {
+  font-size: 2em;
+  color: black;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: black;
+}
+
 .card {
-  background-color: hsl(0, 7%, 59%);
+  background-color: hsla(0, 3%, 51%, 0.753);
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
@@ -62,7 +74,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #ffffff8b;
   height: 2px;
 }
 
@@ -116,6 +128,11 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+}
+#p1 {
+  text-align: center;
+  color: black;
+  padding: 5% 0;
 }
 
 @media (max-width: 690px) {

@@ -2,7 +2,7 @@
 
 ## Description
 
-The main goal of this project is to create create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code. It will also have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+The main goal of this project is to create create an application that enables users to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code. It will also have a clean and polished, responsive user interface that adapts to multiple screen sizes.
 <br>
 After completion of the project, I have a better understanding on declaring/calling variables, functions, if-statemtns, ternary operators and for loops. I also learned some better ways to write the JavaScript, thus making the code easier to read and more modular!
 

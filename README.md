@@ -26,6 +26,7 @@ For the IDE, use Vs Code as well as the "Open with Live Server" Extension.
 Steps Include:
 
 - Install tools
+- Highly recommend an up to date web browser for JavaScript
 - Clone repository
 - Pull to local sytem
 - Create environment using extension
@@ -34,13 +35,13 @@ Steps Include:
 
 Here's what the expected output should be:
 
-![alt text](assets/images/01-html-css-git-homework-demo.png)
+![alt text](assets/Images/passwordGeneratorscrnsht.png)
 
 ## Links
 
 Link to deployed application:
 <br>
-[logo]: https://prismhead26.github.io/passwordGenerator/ "Search Engine Optimization"
+[logo]: https://prismhead26.github.io/passwordGenerator/ "Password Generator live application"
 <br>
 Link to HTML file:
 <br>
@@ -49,6 +50,10 @@ Link to HTML file:
 Link to CSS file:
 <br>
 [CSS](/assets/CSS/style.css)
+<br>
+Link to JavaScript file:
+<br>
+[CSS](/assets/Scripts/passwordGenerator.js)
 <br>
 Link to README file:
 <br>
@@ -68,7 +73,9 @@ Please refer to the LICENSE in the repo.
 
 ## Features
 
-CSS, CSS Selectors, Media queries, etc.
+JavaScript, variables, functions, if statements, ternary operators, DOM HTML, etc.
+<br>
+CSS, CSS Selectors, Media queries, resets, etc.
 <br>
 Basic HTML template with semantic elements.
 
@@ -76,4 +83,8 @@ Basic HTML template with semantic elements.
 
 In order to test, run the program using the "Open with Live Server" Exstension.
 <br>
-Note: If the images are not visible, you will need to re-link each image in relation to the assets folder.
+I would also have DevTools open to see the logs.
+<br>
+Note: If the criteria and/or password not generating properly, simply refresh the page.
+<br>
+There are also a few test logs in the console to help ensure the app is fully operable.

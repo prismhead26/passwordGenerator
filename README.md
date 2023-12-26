@@ -68,7 +68,11 @@ Please refer to the LICENSE in the repo.
 
 ## Badges
 
-![Static Badge](https://img.shields.io/badge/HTML_and_CSS%20-100%25%20-blue)
+![Static Badge](https://img.shields.io/badge/JavaScript-%2043.4%25-blue)
+<br>
+![Static Badge](https://img.shields.io/badge/CSS-%2038.7%25-blue)
+<br>
+![Static Badge](https://img.shields.io/badge/HTML-%2017.9%25-blue)
 
 ## Features
 

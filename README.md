@@ -52,7 +52,7 @@ Link to CSS file:
 <br>
 Link to JavaScript file:
 <br>
-[CSS](/assets/Scripts/passwordGenerator.js)
+[JavaScript](/assets/Scripts/passwordGenerator.js)
 <br>
 Link to README file:
 <br>
